@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0 px;
+            padding: 0 px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .text{
+            color: #BD83b8;
+            margin-left:30% ;
+            align-items: center;
+            justify-content: center;
+        
+
+        }
+         textarea{
+            width: 45vw;
+            height:45vh;
+            border-radius: 32px;
+            padding: 16px 16px;
+             border-width: 5px; 
+            border-color: #006DA4;
+            background-color: #D5DEEF;
+
+         }
+
+
+         
+         .bar{
+            display: flex;
+         }
+         button {
+            color:rgb(136, 117, 242);
+            background-color: rgba(169, 206, 231, 0.623);
+            font-size: 16px;
+            padding: 10px 25px;
+            border-radius: 35px;
+            outline: 0;
+            border: 0;
+            display: flex;
+            cursor: pointer;;
+            align-items: center;
+            justify-content: center;
+            margin-left:25px ;
+        
+
+         }
+         button img{
+        
+            width:30px;
+            margin-right: 32px;
+         }
+         select{
+            /* flex: 2; */
+           background-color:  #D5DEEF ;
+           
+            margin-left: 30%;
+            padding:0 16px;
+            justify-content: center;
+            width: 30vw;
+            height: 5vh;
+            border-radius: 32px;
+            border-color: #006DA4;
+            appearance: none;
+            
+            
+          
+
+      
+         }
+    </style> 
+</head>
+<body>
+
+        <img src="https://developer.voicemaker.in/images/logo.png"/>
+        <div class="text">
+            <h1>TEXT TO VOICE <span>CONVERTR</span></h1>
+            <textarea placeholder="Write something here ............." ></textarea>
+        </div>
+        <div class="bar">
+        <select>
+            <option>English(India)--Female</option>
+            <option>Not Found</option>
+        </select>
+        <button ><img src="./play.png" />play</button>
+    </div>
+
+        
+    
+</body>
+<script src="./index.js">
+
+
+</script>
+</html>
